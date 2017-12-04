@@ -1,0 +1,168 @@
+body {
+  margin: 0px;
+}
+
+.title-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+img {
+ width: 5%;
+ height: 5%;
+ margin-right: 10px;
+}
+
+h1 {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+td {
+  border: 2px solid #b5b7bc;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+}
+
+.palette {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.palette > div {
+  border-radius: 50%;
+  width: 20px;
+  padding: 20px;
+  margin: 5px;
+}
+
+h4 {
+  margin: 10px;
+}
+
+.colorPicked {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.selectedColor {
+  border-radius: 50%;
+  width: 20px;
+  padding: 20px;
+  margin: 5px;
+  background-color: black;
+}
+
+.white {
+  background-color: white;
+}
+.brick-red {
+ background-color: #B23A30;
+}
+.sunburn{
+ background-color: #FF5445;
+}
+.peach{
+ background-color: #FF736A;
+}
+.grey-poupon{
+ background-color: #E59D34;
+}
+.orange{
+ background-color: #FFAF3A;
+}
+.chipotle{
+ background-color: #FFC678;
+}
+.yellow-mustard{
+ background-color: #E6DE21;
+}
+.yellow{
+ background-color: #FFF725;
+}
+.butter-yellow{
+ background-color: #FFFA88;
+}
+.green-grass{
+ background-color: #3FCA3C;
+}
+.neon-green{
+ background-color: #4FFC4B;
+}
+.key-lime {
+ background-color: #93FD97;
+}
+.deep-ocean {
+ background-color: #2D48B6;
+}
+.baby-blue {
+ background-color: #4168FF;
+}
+.light-blue {
+ background-color: #8FA3FF;
+}
+.blue-purps {
+ background-color: #6235B6;
+}
+.light-purps {
+ background-color: #8C4DFF;
+}
+.lighter-purps {
+ background-color: #B993FF;
+}
+.plum {
+ background-color: #7B309C;
+}
+.pink {
+ background-color: #CD51FF;
+}
+.light-pink {
+ background-color: #E194FF;
+}
+.black {
+ background-color: #000000;
+}
+.charcoal {
+ background-color: #323232;
+}
+.grey {
+ background-color: #666666;
+}
+.light-grey {
+ background-color: #999999;
+}
+.lightest-grey {
+ background-color: #CCCCCC;
+}
+.too-much-wine-brown {
+ background-color: #3A2218;
+}
+.not-enough-fiber-brown {
+ background-color: #512F22;
+}
+.healthy-brown {
+ background-color: #754431;
+}
+.brown-bear-brown {
+ background-color: #90685A;
+}
+.too-much-pineapple-brown {
+ background-color: #AC8E83;
+}
